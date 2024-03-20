@@ -21,7 +21,7 @@ No providers.
 | <a name="module_storage_account"></a> [storage\_account](#module\_storage\_account) | git::https://github.com/nexient-llc/tf-azurerm-module_primitive-storage_account.git | 0.2.1 |
 | <a name="module_network_watcher"></a> [network\_watcher](#module\_network\_watcher) | git::https://github.com/nexient-llc/tf-azurerm-module_primitive-network_watcher.git | 0.1.0 |
 | <a name="module_resource_group"></a> [resource\_group](#module\_resource\_group) | git::https://github.com/nexient-llc/tf-azurerm-module_primitive-resource_group.git | 0.2.1 |
-| <a name="module_log_analytics_workspace"></a> [log\_analytics\_workspace](#module\_log\_analytics\_workspace) | git::https://github.com/nexient-llc/tf-azurerm-module_primitive-log_analytics_workspace.git | patch/identity-fix |
+| <a name="module_log_analytics_workspace"></a> [log\_analytics\_workspace](#module\_log\_analytics\_workspace) | git::https://github.com/nexient-llc/tf-azurerm-module_primitive-log_analytics_workspace.git | 0.1.1 |
 | <a name="module_resource_names"></a> [resource\_names](#module\_resource\_names) | git::https://github.com/nexient-llc/tf-module-resource_name.git | 1.1.1 |
 
 ## Resources

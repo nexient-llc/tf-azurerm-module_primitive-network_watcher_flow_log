@@ -74,7 +74,7 @@ module "resource_group" {
 }
 
 module "log_analytics_workspace" {
-  source = "git::https://github.com/nexient-llc/tf-azurerm-module_primitive-log_analytics_workspace.git?ref=patch/identity-fix"
+  source = "git::https://github.com/nexient-llc/tf-azurerm-module_primitive-log_analytics_workspace.git?ref=0.1.1"
 
   name                = local.log_analytics_workspace_name
   location            = var.location
