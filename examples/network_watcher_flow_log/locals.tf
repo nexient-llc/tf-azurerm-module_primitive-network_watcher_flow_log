@@ -19,11 +19,11 @@ locals {
   network_security_group_name   = module.resource_names["network_security_group"].standard
 
   traffic_analytics = {
-    enabled               = true
+    enabled               = var.enabled
     workspace_id          = module.log_analytics_workspace.workspace_id
     workspace_region      = var.location
     workspace_resource_id = module.log_analytics_workspace.id
-    interval_in_minutes   = 10
+    interval_in_minutes   = var.interval_in_minutes
   }
 
 }

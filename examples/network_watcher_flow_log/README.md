@@ -41,6 +41,7 @@ No resources.
 | <a name="input_location"></a> [location](#input\_location) | Azure region to use | `string` | n/a | yes |
 | <a name="input_enabled"></a> [enabled](#input\_enabled) | Is the Network Watcher Flow Log enabled? | `bool` | `true` | no |
 | <a name="input_retention_policy"></a> [retention\_policy](#input\_retention\_policy) | The retention policy for the Network Watcher Flow Log | <pre>object({<br>    enabled = bool<br>    days    = number<br>  })</pre> | `null` | no |
+| <a name="input_interval_in_minutes"></a> [interval\_in\_minutes](#input\_interval\_in\_minutes) | The interval in minutes which the Network Watcher Flow Log will be sent. | `number` | `60` | no |
 | <a name="input_account_tier"></a> [account\_tier](#input\_account\_tier) | Defines the Tier to use for this storage account. Valid options are Standard and Premium. | `string` | `"Standard"` | no |
 | <a name="input_account_kind"></a> [account\_kind](#input\_account\_kind) | Defines the Kind to use for this storage account. Valid options are Storage, StorageV2, BlobStorage, FileStorage, BlockBlobStorage. | `string` | `"StorageV2"` | no |
 | <a name="input_account_replication_type"></a> [account\_replication\_type](#input\_account\_replication\_type) | Defines the type of replication to use for this storage account. Valid options are LRS, GRS, RAGRS, ZRS, GZRS, RAGZRS. | `string` | `"LRS"` | no |

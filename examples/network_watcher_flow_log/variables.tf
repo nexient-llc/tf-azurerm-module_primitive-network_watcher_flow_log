@@ -113,6 +113,13 @@ variable "retention_policy" {
   default = null
 }
 
+variable "interval_in_minutes" {
+  type        = number
+  description = "The interval in minutes which the Network Watcher Flow Log will be sent."
+  default     = 60
+
+}
+
 // Storage account
 variable "account_tier" {
   type        = string
